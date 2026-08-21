@@ -1,11 +1,6 @@
 // Dane zapasowe – używane gdy nie da się wczytać kursy.txt
 const DANE_ZAPASOWE = `
-2026-08-01 12:00 1.00
-2026-08-05 15:30 1.12
-2026-08-10 09:15 0.98
-2026-08-15 18:45 1.25
-2026-08-20 22:10 1.18
-2026-08-21 00:05 1.22
+
 `.trim();
 
 async function wczytajDane() {
